@@ -1,0 +1,23 @@
+{
+  "capabilities": [
+    {
+      "browserName": "firefox",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "platform": "LINUX",
+      "webdriver.firefox.profile": ""
+    },
+    {
+      "browserName": "chrome",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "platform": "LINUX"
+    }
+  ],
+  "cleanUpCycle":2000,
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "maxSession": 5,
+  "host": "localhost",
+  "register": true,
+  "registerCycle": 5000
+}
